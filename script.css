@@ -190,73 +190,6 @@ padding: 0 50px;
     width:90%
 }
 
-/*------------SERVICES------------*/
-
-.services {
-    background:#ffe7cd;
-    display:flex;
-    flex-direction:column;
-    align-items: center;
-    height:90%;
-}
-
-.services_Container {
-    
-    align-items: center;
-    background:#ffe7cd;
-    display:flex;
-    justify-content: center;
-    flex-wrap:wrap;
-}
-
-.services_Offer {
-    margin:47px;
-    height:525px;
-    width:345px;
-    border-radius:17px;
-    background-image: url('/images/COFFEE.jpg');
-    BACKGROUND-size: cover;
-    position: relative;
-    color: #fff;
-
-}
-
-.services_Offer:nth-child(2) {
-    margin:47px;
-    height:525px;
-    width:345px;
-    border-radius:17px;
-    background-image: url('/images/DESSERTS.jpg');
-    BACKGROUND-size: cover;
-    position: relative;
-    color: #fff;
-
-}
-
-.services_Offer:nth-child(3) {
-    margin:47px;
-    height:525px;
-    width:345px;
-    border-radius:17px;
-    background-image: url('/images/BARISTA.jpg');
-    BACKGROUND-size: cover;
-    position: relative;
-    color: #fff;
-
-}
-
-.services h2 {
-    position: absolute;
-    top:350px;
-    left:30px;
-}
-
-.services_Offer:hover {
-    transform: scale(1.025);
-    transition: 0.7 ease;
-    cursor:pointer;
-}
-
 /*------------FOOTER------------*/
 
 .footer {
@@ -428,7 +361,76 @@ grid-row:2;
 /*------------MAIN3------------*/
 .main3 {
     background-color: #ffe7cd;
+
 }
 
-/*------------SLIDER------------*/
+/*------------SERVICES------------*/
+
+.services {
+    background:#ffe7cd;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    height:90%;
+}
+
+.services_Container {
+    
+    align-items: center;
+    background:#ffe7cd;
+    display:flex;
+    justify-content: center;
+    flex-wrap:wrap;
+}
+
+.services_Offer {
+    margin:47px;
+    height:525px;
+    width:345px;
+    border-radius:17px;
+    background-image: url('/images/COFFEE.jpg');
+    BACKGROUND-size: cover;
+    position: relative;
+    color: #fff;
+
+}
+
+.services_Offer:nth-child(2) {
+    margin:47px;
+    height:525px;
+    width:345px;
+    border-radius:17px;
+    background-image: url('/images/DESSERTS.jpg');
+    BACKGROUND-size: cover;
+    position: relative;
+    color: #fff;
+
+}
+
+.services_Offer:nth-child(3) {
+    margin:47px;
+    height:525px;
+    width:345px;
+    border-radius:17px;
+    background-image: url('/images/BARISTA.jpg');
+    BACKGROUND-size: cover;
+    position: relative;
+    color: #fff;
+
+}
+
+.services h2 {
+    position: absolute;
+    top:350px;
+    left:30px;
+}
+
+.services_Offer:hover {
+    transform: scale(1.025);
+    transition: 0.7 ease;
+    cursor:pointer;
+}
+
+
+
 
