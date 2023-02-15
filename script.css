@@ -181,7 +181,7 @@ padding: 0 50px;
 }
 
 .mainImage_Container {
-    text-align: ceter;
+    text-align: center;
 
 }
 
@@ -269,6 +269,8 @@ padding: 0 50px;
     display:grid;
     text-align: center;
     padding-bottom:5px;
+    max-width:100%;
+   
     
 }
 
@@ -277,25 +279,26 @@ padding: 0 50px;
     margin: 10px 10px;
     display:grid;
     height: auto;
-    width: auto;
+    max-width:100%;
+
 }
 
 .main2_Container h1 {
-    font-size:57px;
+    font-size:10vh;
     font-family: 'Dancing Script', cursive;
     color:#382119;
     letter-spacing:0.3rem;
 }
 
 .main2_Container h2 {
-    font-size:35px;
+    font-size:6vh;
     font-family: 'Cormorant Garamond', serif;
     color:#382119;
     letter-spacing:0.2rem;
 
 }
 .main2_Container h3 {
-    font-size:20px;
+    font-size:3vh;
     font-family: 'Dancing Script', cursive;
     color:#382119;
 } 
@@ -303,6 +306,7 @@ padding: 0 50px;
 .main2_Container p {
     font-family:'Times New Roman', Times, serif;
     color:#382119;
+    font-size:2.3vh;
 }
 
 .menu {
@@ -322,6 +326,8 @@ padding: 0 50px;
     width: auto;
     row-gap:20px;
 }
+
+
 
 .prod1 {
 grid-column:1;
@@ -343,7 +349,7 @@ grid-row:2;
 }
             
 .prod5 {
- grid-column:2;
+grid-column:2;
 grid-row:2;
 }
 
