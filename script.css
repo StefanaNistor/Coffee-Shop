@@ -79,7 +79,7 @@ padding: 0 50px;
     width: 100%;
 }
 
-.button {
+#signin {
     display:flex;
     justify-content:center;
     align-items:center;
@@ -94,7 +94,7 @@ padding: 0 50px;
     color: #fff;
 }
 
-.button:hover {
+#signin:hover {
     background: #a15442;
     color:rgb(0, 0, 0);
     transition: all 0.5s ease;
@@ -481,4 +481,97 @@ padding: 0 50px;
    
   }
 
+/*-----------------ORDER SECTION MAIN4-----------------*/
 
+.main4{
+    background-color:#ffe7cd;
+    display: grid;
+    max-height:100%;
+    max-width:100%;
+
+}
+
+.items {
+    background-color:#673524;
+    align-items:center;
+    text-align:center;
+    display:grid;
+    max-height:100%;
+    max-width:100%;
+    padding:20px;
+
+}
+
+.items h1{
+    color:#fff;
+    font-size: 5vh;
+}
+
+.items_container {
+    background-color:#ffe7cd;
+    display: grid;
+    max-width: 100%;
+    padding: 15px;
+}
+
+@media (min-width:500px)
+{
+    .items_container { grid-template-columns: repeat(1,1fr);
+} }
+
+@media (min-width:900px)
+{
+    .items_container { grid-template-columns: repeat(2,1fr);
+} }
+
+@media (min-width:1420px)
+{
+    .items_container { grid-template-columns: repeat(3,1fr);
+} }
+
+.item{
+    background-color: #ffe7cd;
+    width:400px;
+    border: 15px solid #f9a277;
+    padding:25px;
+    margin:20px;
+}
+
+.item h2{
+    color: #673524;
+    font-size: 4vh;
+}
+
+.item p{
+    color:#382119;
+    font-size:2vh;
+    margin: 0 0 15px;
+}
+.Separator2{
+    color:#fff;
+    text-align:center;
+    font-size:2.5vh;
+
+}
+
+#orderbutton{
+    display:center;
+    justify-content:center;
+    align-items:center;
+    text-decoration:none;
+    padding: 7px 17px;
+    height:100%;
+    width:100%;
+    border:none;
+    outline: none;
+    border-radius: 5px;
+    background: #673524;
+    color: #fff;
+    
+}
+
+#orderbutton:hover {
+    background: #a15442;
+    color:rgb(0, 0, 0);
+    transition: all 0.5s ease;
+}
