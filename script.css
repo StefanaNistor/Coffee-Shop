@@ -504,7 +504,7 @@ padding: 0 50px;
 
 .items h1{
     color:#fff;
-    font-size: 5vh;
+    font-size: 4.7vh;
 }
 
 .items_container {
@@ -533,7 +533,7 @@ padding: 0 50px;
     background-color: #ffe7cd;
     width:400px;
     border: 15px solid #f9a277;
-    padding:25px;
+    padding:15px;
     margin:20px;
 }
 
@@ -543,6 +543,7 @@ padding: 0 50px;
 }
 
 .item p{
+    font-family:'Playfair Display', serif;
     color:#382119;
     font-size:2vh;
     margin: 0 0 15px;
@@ -574,4 +575,41 @@ padding: 0 50px;
     background: #a15442;
     color:rgb(0, 0, 0);
     transition: all 0.5s ease;
+}
+
+#img_order1{
+    max-height: 50%;
+    max-width: 50%;
+}
+#img_order2{
+    max-height: 50%;
+    max-width: 50%;
+}
+#img_order3{
+    max-height: 50%;
+    max-width: 50%;
+}
+#img_order4{
+    max-height: 50%;
+    max-width: 50%;
+}
+#img_order5{
+    max-height: 50%;
+    max-width: 50%;
+}
+#img_order6{
+    max-height: 50%;
+    max-width: 50%;
+}
+#img_order7{
+    max-height: 50%;
+    max-width: 50%;
+}
+#img_order8{
+    max-height: 50%;
+    max-width: 50%;
+}
+#img_order9{
+    max-height: 50%;
+    max-width: 50%;
 }
