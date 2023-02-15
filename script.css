@@ -465,6 +465,11 @@ padding: 0 50px;
       width:90%
   }
 
+  #info4{
+    height: 90%;
+      width:90%
+  }
+
 .text h1{
     font-family: 'Tangerine', cursive;
     font-size: 7.3vh;
@@ -498,8 +503,6 @@ padding: 0 50px;
     display:grid;
     max-height:100%;
     max-width:100%;
-    padding: 20px 20px 30px 20px;
-
 }
 
 .items h1{
@@ -511,7 +514,6 @@ padding: 0 50px;
     background-color:#ffe7cd;
     display: grid;
     max-width: 100%;
-    padding: 15px;
 }
 
 @media (min-width:500px)
@@ -531,10 +533,10 @@ padding: 0 50px;
 
 .item{
     background-color: #ffe7cd;
-    width:400px;
+    max-width:400px;
     border: 15px solid #f9a277;
-    padding:15px;
-    margin:20px;
+    padding: 10px;
+    margin:10px 5px 10px 15px;
 }
 
 .item h2{
